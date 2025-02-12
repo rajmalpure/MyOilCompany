@@ -1,5 +1,8 @@
 import { ArrowRight, Award, Leaf, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import groundnutOil from "../assets/Groundnut.png"; 
+import mustardOil from "../assets/Mustard.png";
+import sesameOil from "../assets/Sesame.png";
 
 const Home = () => {
   return (
@@ -74,17 +77,17 @@ const Home = () => {
             {[
               {
                 name: "Pure Groundnut Oil",
-                image: "https://images.unsplash.com/photo-1620706857370-e1b9770e8bb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+                image: groundnutOil,
                 price: "$12.99"
               },
               {
                 name: "Premium Mustard Oil",
-                image: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+                image: mustardOil,
                 price: "$14.99"
               },
               {
                 name: "Organic Sesame Oil",
-                image: "https://images.unsplash.com/photo-1620706857370-e1b9770e8bb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+                image: sesameOil,
                 price: "$16.99"
               }
             ].map((product, index) => (
